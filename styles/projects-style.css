@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #F8F4EB;
+  color: #333;
+}
+
+.navbar {
+  background-color: #A47C48;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+}
+
+.navbar .logo a {
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar .logo a:hover,
+.navbar nav a:hover {
+  text-decoration: underline;
+}
+
+.navbar nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 2rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin: 2rem 2rem 1rem;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.project-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  gap: 1.5rem;
+  background-color: #333;
+  border-radius: 15px;
+  padding: 1.5rem;
+  color: white;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  width: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.card-text {
+  background-color: #fff;
+  color: #333;
+  padding: 1rem;
+  border-radius: 10px;
+  flex: 1;
+}
+
+.card-text h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.card-text p {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.card-text a {
+  color: #6585A1;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.cta-projects {
+  text-align: center;
+  margin: 3rem 0 5rem;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  color: #333;
+  border: 2px solid #6585A1;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e6eff7;
+}
+
+footer {
+  background-color: #A47C48;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+}
+
+.footer-socials a img {
+  height: 20px;
+  margin-left: 0.5rem;
+}

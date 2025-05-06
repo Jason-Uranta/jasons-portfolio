@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #F8F4EB;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #A47C48;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 2rem;
+}
+
+.navbar .logo a {
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar .logo a:hover,
+.navbar nav a:hover {
+  text-decoration: underline;
+}
+
+/* Page Title */
+.section-title {
+  font-size: 2rem;
+  margin: 2rem auto 1.5rem;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* Card Row Container */
+.card-row {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  background-color: #333;
+  border-radius: 15px;
+  color: white;
+  padding: 1.5rem;
+  margin: 1.5rem auto;
+  max-width: 750px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-row:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-row img {
+  width: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.card-text {
+  background-color: #f8f4ed;
+  color: #333;
+  padding: 1rem;
+  border-radius: 10px;
+  flex: 1;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Bio Section */
+.bio-section {
+  max-width: 750px;
+  margin: 3rem auto;
+  padding: 0 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Photo Strip */
+.photo-strip {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem auto;
+  flex-wrap: wrap;
+  max-width: 750px;
+  padding: 0 2rem;
+}
+
+.photo-strip img {
+  height: 150px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Final Section */
+.final-thoughts {
+  max-width: 750px;
+  margin: 2rem auto 4rem;
+  padding: 0 2rem;
+}
+
+.final-thoughts ul {
+  list-style-type: disc;
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.final-thoughts a {
+  color: #6585A1;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  color: #333;
+  border: 2px solid #6585A1;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e6eff7;
+}
+
+/* Footer */
+footer {
+  background-color: #A47C48;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+}
+
+.footer-socials a img {
+  height: 20px;
+  margin-left: 0.5rem;
+}
+
+
+
+.fun-section {
+  max-width: 750px;
+  margin: 3rem auto 5rem;
+  padding: 0 2rem;
+}
+
+.fun-images {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.fun-images img {
+  width: 210px;
+  height: 210px;
+  border-radius: 10px;
+  border: 2px solid #6585A1;
+  object-fit: cover;
+  margin-bottom: 100px;
+}
+
+.fun-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.fun-footer ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  flex: 1;
+}
+
+.fun-footer a.cta-button {
+  white-space: nowrap;
+  padding: 1rem 2rem;
+  color: #333;
+  border: 2px solid #6585A1;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.fun-footer a.cta-button:hover {
+  background-color: #e6eff7;
+}
